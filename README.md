@@ -1,17 +1,7 @@
-# Assignment-15.1
+# AcadGild - Web application development with React and Relay
 
-Write a GraphQL query to fetch Books first 20 records
+#### To Build
+Run: `npm install`
 
-{
-  bookStore {
-    books(first: 20) {
-      edges {
-        cursor
-        node {
-          id
-          title
-        }
-      }
-    }
-  }
-}
+### To start:
+Run: `npm start`
